@@ -1,1 +1,74 @@
-C:\Users\user\OneDrive\Documentos\projetos\n1 variaveis\super trunfo.c\superturnfo.c\atividade par2.c\aventureiro.c
+#include <stdio.h> 
+
+int main (){
+
+
+// CARTA 3 = Salvador (BA)
+
+char cidade3[] = "Salvador";
+char estado3[] = "Bahia";
+int população3 = 2900000;
+float area3 = 693.80;
+float pib3 = 63.50;
+int pontosturistico3 = 35;
+float Densidade3 = 4180.00;
+float pibcapital3 = 21900.00;
+
+// CARTA 4 = FORTALEZA (CE)
+
+char cidade4[] = "Fortaleza";
+char estado4[] = "Ceara";
+int população4 = 2687000;
+float area4 = 312.40;
+float pib4 = 67.00;
+int pontosturisticos4 = 30;
+float densidade4 = 8600.00;
+float pibcapital4 = 24900.00;
+
+
+printf(" \n CARTA 3 \n");
+printf("Cidade: %s \n", cidade3);
+printf("Estado: %s \n" , estado3) ;
+printf("População: %d \n" , população3);
+printf("Pontos Turisticos: %d \n " , pontosturistico3);
+printf("Area: %f \n", area3);
+printf("Pib: %f \n " , pib3);
+printf("Densidade: %.2f \n ", Densidade3 );
+printf("Pib Capital: %.2f \n" , pibcapital3);
+
+
+printf ("\n CARTA 4 \n"); 
+printf ("Cidade: %s \n" , cidade4);
+printf ("Estado: %s \n" , estado4);
+printf ("População: %d \n" , população4);
+printf ("Pontos turisticos: %d \n" , pontosturisticos4);
+printf ("Area: %f \n" , area4);
+printf ("Pib: %f \n" , pib4);
+printf ("Densidade: %.2f \n" , densidade4);
+printf ("Pib Capital: %.2f \n" , pibcapital4);
+
+
+Densidade3 = população3 / area3;
+printf ("Densidade Populacional Carta3: %.2f hab/km² \n", Densidade3);
+
+densidade4 = população4 / area4 ;
+printf(" Densidade Populacional Carta4: %.2f hab/km² \n", densidade4);
+
+pibcapital3 = (pib3 *1000000000 ) / população3;
+printf (" Pib per Capital Carta 3: %.2f reais \n" , pibcapital3);
+
+pibcapital4 = (pib4 *1000000000 ) /população4;
+printf(" Pib per Capital Carta 4: %.2f reais \n", pibcapital4);
+
+
+
+
+
+
+
+return 0; 
+
+
+
+
+}
