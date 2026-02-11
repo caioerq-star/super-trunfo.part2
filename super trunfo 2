@@ -63,6 +63,13 @@ printf(" Pib per Capital Carta 4: %.2f reais \n", pibcapital4);
 
 
 
+if(população3 > população4) {
+   printf("População da carta 3 é a vencedora\n");
+
+} else {
+   printf("População da carta 4 é a vencedora\n");
+}
+
 
 
 
